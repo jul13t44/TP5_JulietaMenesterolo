@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eeeeee;
+    margin: 0;
+    padding: 20px;
+}
+
+.contenedor {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.icono {
+    width: 40px;
+    position: absolute;
+    top: -20px;
+    left: 20px;
+}
+
+.verde {
+    background-color: #5fbf6b;
+    color: white;
+    width: 300px;
+}
+
+.verde h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.verde ul {
+    list-style: none;
+    padding: 0;
+}
+
+.verde li {
+    margin: 8px 0;
+}
+
+.verde span {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.lado-derecho {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.blanca {
+    background-color: white;
+    width: 300px;
+}
+
+.blanca h2 {
+    color: #5fbf6b;
+    margin-top: 20px;
+}
+
+.blanca ul {
+    padding-left: 20px;
+}
